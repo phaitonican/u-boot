@@ -19,6 +19,7 @@ pkgs.mkShell rec {
     flex
     openssl
     bc
+    gnutls
 
   ];
   LD_LIBRARY_PATH = buildInputs;
